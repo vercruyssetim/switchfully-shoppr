@@ -71,6 +71,14 @@ main {
     height: 100%;
 }
 
+main > p {
+    padding: 45vh;
+    color: #FFFFFF;
+    text-align: center;
+
+    font-size: 40px;
+}
+
 ul.teams-container {
     height: 100%;
     margin: auto;
@@ -102,32 +110,54 @@ ul.teams-container > li > a {
 }
 
 ul.teams-container > li > a:hover {
-    background: transparent;
+    background-color: transparent;
     color: transparent;
+    border:  1px solid rgb(255, 255, 255);
 }
 
 .cactopodes:hover {
     background: url("images/cactus.png") no-repeat center center;
     background-size: 75% 75%;
-    border:  1px solid rgb(255, 255, 255);
 }
 
 .stoomboot:hover {
     background: url("images/steamboat.png") no-repeat center center;
     background-size: 75% 75%;
-    border:  1px solid rgb(255, 255, 255);
 }
 
 .hamster:hover {
     background: url("images/hamster.png") no-repeat center center;
     background-size: 75% 75%;
-    border:  1px solid rgb(255, 255, 255);
 }
 
 .jnst:hover {
     background: url("images/gun.png") no-repeat center center;
     background-size: 75% 75%;
-    border:  1px solid rgb(255, 255, 255);
+}
+
+.noobs:hover {
+    background: url("images/noob.png") no-repeat center center;
+    background-size: 75% 75%;
+}
+
+.coach-potato:hover {
+    background: url("images/potato.png") no-repeat center center;
+    background-size: 75% 75%;
+}
+
+.coachify:hover {
+    background: url("images/coach.png") no-repeat center center;
+    background-size: 75% 75%;
+}
+
+.marvel:hover {
+    background: url("images/marvel.png") no-repeat center center;
+    background-size: 75% 75%;
+}
+
+.spectangular:hover {
+    background: url("images/spectangular.png") no-repeat center center;
+    background-size: 75% 75%;
 }
 
 
